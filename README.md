@@ -11,8 +11,8 @@ The proposed method is built upon **HyperSL**, a pretrained spectral foundation 
 This work focuses on:
 
 * Few-shot hyperspectral image classification
-* Cross-scene hyperspectral image classification
 * Efficient adaptation of pretrained hyperspectral foundation models
+* Cross-scene hyperspectral image classification inference
 * Limited-label learning for hyperspectral remote sensing
 
 ## Download
@@ -26,11 +26,6 @@ The pretrained HyperSL weights can be downloaded from the official HyperSL relea
 
 * HuggingFace: https://huggingface.co/WeilKon/HyperSL/tree/main
 
-After downloading, please place the pretrained weights under:
-
-```bash
-pretrained/
-```
 
 ### Training Dataset
 
